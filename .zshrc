@@ -21,4 +21,6 @@ alias ls="eza --icons=always"
 alias vim="nvim"
 alias python="python3"
 alias pip="pip3"
+alias lg="lazygit"
+alias ld="lazydocker"
 
