@@ -19,3 +19,6 @@ bindkey '^[[B' history-search-forward
 
 alias ls="eza --icons=always"
 alias vim="nvim"
+alias python="python3"
+alias pip="pip3"
+
