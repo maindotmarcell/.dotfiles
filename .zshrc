@@ -17,6 +17,9 @@ source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 bindkey '^[[A' history-search-backward
 bindkey '^[[B' history-search-forward
 
+# set ctrl+f as alt+c for fzf dir finding
+bindkey -s "^F" "^[c"
+
 alias vim="nvim"
 alias python="python3"
 alias pip="pip3"
