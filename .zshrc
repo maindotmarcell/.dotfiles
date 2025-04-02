@@ -13,6 +13,9 @@ source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
+# Source fzf shell integration
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh || source <(fzf --zsh)
+
 # completion using arrow keys (based on history)
 bindkey '^[[A' history-search-backward
 bindkey '^[[B' history-search-forward
