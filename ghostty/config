@@ -3,3 +3,4 @@ macos-titlebar-proxy-icon = hidden
 background-opacity = 0.9
 background-blur = true
 shell-integration-features = no-cursor
+font-size = 18
