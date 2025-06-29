@@ -1,5 +1,5 @@
-macos-titlebar-style = hidden
-macos-titlebar-proxy-icon = hidden
+window-decoration = none
+
 background-opacity = 0.9
 background-blur = true
 shell-integration-features = no-cursor
