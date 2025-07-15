@@ -1,6 +1,8 @@
-window-decoration = none
-
-background-opacity = 0.9
-background-blur = true
+macos-titlebar-style = hidden
+macos-titlebar-proxy-icon = hidden
 shell-integration-features = no-cursor
 font-size = 18
+theme = nord
+mouse-hide-while-typing
+
+window-decoration = none
